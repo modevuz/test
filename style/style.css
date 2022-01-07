@@ -1,0 +1,326 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background-color: #0a0a0a;
+  color: #fff;
+}
+
+nav {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 7%;
+}
+
+nav .brand {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+nav .menu {
+  width: 30%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav .menu a {
+  text-decoration: none;
+  color: white;
+}
+
+main {
+  width: 100%;
+  height: calc(100vh - 100px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main h1 {
+  width: 30%;
+  font-size: 40px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+main h1 span {
+  color: orange;
+}
+
+main p {
+  font-weight: 500;
+  padding-bottom: 20px;
+}
+
+main .btns {
+  width: 23%;
+  height: 45px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main .btns a {
+  width: 47%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #fff;
+  text-decoration: none;
+  border-radius: 3px;
+  font-weight: 400;
+}
+
+main .btns a:nth-child(1) {
+  background-color: blueviolet;
+  color: white;
+  border: blueviolet solid 1px;
+}
+
+main .btns a:nth-child(1):hover {
+  background-color: transparent;
+}
+
+main .btns a:nth-child(2) {
+  background-color: transparent;
+  color: white;
+  border: white solid 1px;
+}
+
+main .btns a:nth-child(2):hover {
+  background-color: blueviolet;
+}
+
+.about-me {
+  width: 100%;
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.about-me .about-box {
+  width: 60%;
+  height: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px;
+  background-color: #444444;
+  border-radius: 10px;
+}
+
+.about-me .about-box img {
+  height: 100%;
+}
+
+.about-me .about-box .text-box {
+  width: 80%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  padding: 10px;
+}
+
+.about-me .about-box .text-box h1 {
+  font-size: 30px;
+}
+
+.about-me .about-box .text-box p {
+  line-height: 30px;
+}
+
+.about-me .about-box .text-box a {
+  text-decoration: none;
+  color: white;
+  padding: 10px 25px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 3px;
+}
+
+.projects {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 20px 7%;
+}
+
+.projects h1 {
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  padding: 50px 0;
+}
+
+.projects img {
+  padding: 20px 0;
+  width: 100%;
+}
+
+.projects a {
+  text-decoration: none;
+  color: white;
+  background-color: blueviolet;
+  padding: 10px 30px;
+  border-radius: 3px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  padding: 0px 7%;
+  padding-right: 30%;
+  padding-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .col a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+}
+
+footer .col a:nth-child(1) {
+  color: aquamarine;
+  font-weight: 500;
+}
+
+footer .social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+footer .social p {
+  padding: 10px;
+  padding-left: 0;
+  color: aquamarine;
+}
+
+footer .social .social-icons {
+  font-size: 24px;
+}
+
+footer .social .social-icons i {
+  padding: 10px;
+}
+
+.footer-info {
+  height: 60px;
+  width: 100%;
+  padding: 0 7%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.line {
+  width: 100%;
+  height: 2px;
+  padding: 0 7%;
+  margin: 20px 0;
+}
+
+.line .inline {
+  height: 100%;
+  width: 100%;
+  border-radius: 1px;
+  background-color: grey;
+}
+/*# sourceMappingURL=style.css.map */
